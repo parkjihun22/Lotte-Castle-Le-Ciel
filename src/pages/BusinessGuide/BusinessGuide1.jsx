@@ -16,9 +16,9 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
 	{ label: '사업명', value: '평촌 롯데캐슬 르씨엘' },
-	{ label: '사업위치', value: '경기도 안양시 동안구 평촌동 일원' },
-	{ label: '건축규모', value: '지하 2층 ~ 지상 35층, 총 51개 동' },
-	{ label: '세대수', value: '총 5,290세대 (임대 포함)' },
+	{ label: '사업위치', value: '경기도 안양시 동안구 평촌동 934번지' },
+	{ label: '건축규모', value: '지하 5층 ~ 지상 48층' },
+	{ label: '세대수', value: '총 900세대' },
 ];
 
 const BusinessGuide1 = () => {

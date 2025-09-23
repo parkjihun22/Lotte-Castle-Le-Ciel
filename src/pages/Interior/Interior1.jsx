@@ -11,7 +11,8 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/Interior/Interior1/page1.jpg";
+// import page1 from "../../assets/Interior/Interior1/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const Interior1 = () => {
   const menuContents = [
@@ -67,12 +68,13 @@ const Interior1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="평촌 롯데캐슬 르씨엘 인테리어 안내 이미지1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
+      <Ready/>
 
 
       <div className={styles.commonBox2}>

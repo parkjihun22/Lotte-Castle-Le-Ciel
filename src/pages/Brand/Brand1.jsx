@@ -9,8 +9,9 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/Brand/intro/page1.jpg";
+// import page1 from "../../assets/Brand/intro/page1.jpg";
 
+import Ready from "../../components/Ready/Ready";
 const Brand1 = () => {
     const menuContents = [{ title: "브랜드 소개", url: "/brand/intro" }, { title: "홍보 영상", url: "/brand/video" }];
     const [isScroll, setIsScroll] = useState(false);
@@ -88,7 +89,9 @@ const Brand1 = () => {
 
                 </div>
 
-            <img className={`${styles.image} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평촌 롯데캐슬 르씨엘 brand-Image1" />
+            {/* <img className={`${styles.image} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평촌 롯데캐슬 르씨엘 brand-Image1" /> */}
+
+            <Ready/>
 
             <Footer />
         </div>

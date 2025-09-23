@@ -9,7 +9,8 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
     const menuContents = [
@@ -77,8 +78,10 @@ const BusinessGuide2 = () => {
             </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평촌 롯데캐슬 르씨엘 분양일정안내-image1" />
+            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평촌 롯데캐슬 르씨엘 분양일정안내-image1" /> */}
 
+
+            <Ready/>
             <div className={styles.readyContainer}>
            
             </div>

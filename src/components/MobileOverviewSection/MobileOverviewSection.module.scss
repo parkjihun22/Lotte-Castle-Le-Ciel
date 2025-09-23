@@ -75,7 +75,7 @@
     &.active {
       .label,
       .arrow {
-        color: #0b4f73;
+        color: #130946;
       }
     }
   }
@@ -106,7 +106,7 @@
   .accordionContent {
     font-family: 'Pretendard-Regular';
     margin-top: 3vw;
-    border-top: 0.5vw solid #0b4f73;
+    border-top: 0.5vw solid #130946;
     padding: 2vw 0;
   
     // 5-1. 사업개요 리스트
@@ -176,7 +176,7 @@
       .premiumTitle {
         font-size: 4vw;
         font-weight: 700;
-        color: #0b4f73;
+        color: #130946;
       }
       .premiumSubtitle {
         margin-top: 0.5vw;
@@ -238,7 +238,7 @@
           transition: background 0.2s ease;
   
           &.dotActive {
-            background: #0b4f73;
+            background: #130946;
           }
         }
       }

@@ -11,14 +11,14 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    { title: "59A", key: "59A" },
+    // { title: "59A", key: "59A" },
     // { title: "59B", key: "59B" },
     // { title: "84A", key: "84A" },
     // { title: "84B", key: "84B" },
   ];
 
   const vrUrls = {
-    "59A": "https://sd-thehue.com/vr/H59A.html",
+    // "59A": "https://sd-thehue.com/vr/H59A.html",
     // "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
     // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
     // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",

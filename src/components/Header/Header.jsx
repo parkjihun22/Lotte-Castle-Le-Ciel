@@ -29,12 +29,12 @@ const menuArray = [
     ],
   },
   {
-    title: "청약안내",
+    title: "분양안내",
     subMenu: [
-      { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "청약안내문", subUrl: "/SalesInfo/guide" },
+      // { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
+      // { subTitle: "청약안내문", subUrl: "/SalesInfo/guide" },
       { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-      { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
+      // { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
     ],
   },
   {
@@ -55,11 +55,11 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "40", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59A", subUrl: "/FloorPlan/59B" },
-      { subTitle: "59B", subUrl: "/FloorPlan/84A" },
-      // { subTitle: "84B", subUrl: "/FloorPlan/84B" },
-      // { subTitle: "84C", subUrl: "/FloorPlan/114A" },
+      { subTitle: "47A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59B" },
+      { subTitle: "96A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "118A", subUrl: "/FloorPlan/84B" },
+      { subTitle: "119A", subUrl: "/FloorPlan/114A" },
       { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
@@ -107,9 +107,9 @@ export default function Header() {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu((v) => !v)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#0b4f73" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#130946" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#0b4f73" />
+              <IoCloseSharp className={styles.icon} size={25} color="#130946" />
             )}
           </div>
           {isMobileMenu && (
@@ -123,7 +123,7 @@ export default function Header() {
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#0b4f73" />
+            <IoCall className={styles.icon} size={25} color="#130946" />
           </a>
         </div>
         {isInterestPopupOpen && (

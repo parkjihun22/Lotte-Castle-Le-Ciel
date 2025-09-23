@@ -15,11 +15,11 @@ import Ready from "../../components/Ready/Ready";
 
 const FloorPlan6 = () => {
 	const menuContents = [
-		{ title: "59A", url: "/FloorPlan/59A" },
-		{ title: "59B", url: "/FloorPlan/59B" },
-		{ title: "84A", url: "/FloorPlan/84A" },
-		{ title: "84B", url: "/FloorPlan/84B" },
-		{ title: "84C", url: "/FloorPlan/114A" },
+		{ title: "47A", url: "/FloorPlan/59A" },
+		{ title: "84A", url: "/FloorPlan/59B" },
+		{ title: "96A", url: "/FloorPlan/84A" },
+		{ title: "118A", url: "/FloorPlan/84B" },
+		{ title: "119A", url: "/FloorPlan/114A" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	];

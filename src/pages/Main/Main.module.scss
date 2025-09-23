@@ -167,7 +167,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #0b4f73; /* 파랑 색상 */
+      color: #130946; /* 파랑 색상 */
     }
   
     .greyText1 {
@@ -179,7 +179,7 @@
     .grandOpenText1 {
       font-size: 4vw;
       font-family: 'Gyeonggi_Title_Medium';
-      color: #0b4f73; /* 강조 색상 */
+      color: #130946; /* 강조 색상 */
       text-align: center;
       margin-top: 4vw;
     }
@@ -434,7 +434,7 @@
     }
 
     .box:hover {
-        background-color: #0b4f73;
+        background-color: #130946;
         color: #fff7ea;
     }
 }
@@ -943,7 +943,7 @@
         margin: 4vw 0 0 5vw;
 
         .title {
-            color: #0b4f73;
+            color: #130946;
 
             font-size: 4vw;
             font-weight: 400;
@@ -967,7 +967,7 @@
             width: 100%;
 
             .textLine {
-                border: 2px solid #0b4f73;
+                border: 2px solid #130946;
                 width: 0;
                 height: 7vw;
             }
@@ -1008,7 +1008,7 @@
         width: 80%;
 
         .title {
-            color: #0b4f73;
+            color: #130946;
             font-size: 2vw;
             font-weight: 600;
             line-height: 3.5vw;
@@ -1031,13 +1031,13 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #0b4f73;
+                border: 4px solid #130946;
                 width: 0;
                 height: 3.5vw;
             }
 
             .subText {
-                color: #0b4f73;
+                color: #130946;
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1074,7 +1074,7 @@
         height: auto;
 
         .title {
-            color: #0b4f73;
+            color: #130946;
             font-family: 'NanumHumanTTFBold';
             font-size: 2vw;
             font-weight: 600;
@@ -1099,7 +1099,7 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #0b4f73;
+                border: 4px solid #130946;
                 width: 0;
                 height: 3.5vw;
             }
@@ -1255,14 +1255,14 @@
 .text3 {
   font-family: 'NanumHumanTTFBold';
   font-size: 1.5rem;
-  color: #0b4f73;
+  color: #130946;
   font-weight: bold;
 }
 
 /* text4: 전화번호 */
 .text4 {
   font-size: 1.5rem;
-  color: #0b4f73;       /* 예: 붉은색 */
+  color: #130946;       /* 예: 붉은색 */
   font-weight: bold;
 }
 
@@ -1303,7 +1303,7 @@
 .registrationForm button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #0b4f73;
+  background-color: #130946;
   color: #fff;
   border: none;
   border-radius: 4px;

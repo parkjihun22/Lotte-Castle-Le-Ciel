@@ -32,15 +32,15 @@ const items = [
           </li>
           <li>
             <strong>건축규모</strong>
-            <span>지하 2층 ~ 지상 35층, 총 51개동</span>
+            <span>지하 5층 ~ 지상 48층, </span>
           </li>
           <li>
             <strong>주택형</strong>
-            <span>전용 59㎡, 84㎡ 중심의 다양한 평면 구성</span>
+            <span>전용 47㎡, 84㎡,99㎡,114㎡,115㎡ 중심의 다양한 평면 구성</span>
           </li>
           <li>
             <strong>세대수</strong>
-            <span>총 5,290세대 (임대 포함)</span>
+            <span>총 900세대 </span>
           </li>
           </ul>
 
@@ -101,9 +101,9 @@ function PremiumSlider() {
     },
     {
       img: slide3,
-      title: "5,290세대 대규모 브랜드 타운",
+      title: "900 세대 대규모 브랜드 타운",
       desc:
-        "총 51개 동, 5,290세대 규모<br/>롯데캐슬 브랜드 프리미엄 대단지",
+        "총 900세대 규모<br/>롯데캐슬 브랜드 프리미엄 대단지",
     },
     {
       img: slide4,
